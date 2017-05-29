@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(255, 255, 255)
+}
+
+.boxs,
+.bird {
+    position: absolute;
+}
+
+.boxb {
+    width: 960px;
+    height: 300px;
+    border: 1px solid;
+    border-color: rgb(225, 232, 237);
+    border-radius: 5px;
+}
+
+.boxs {
+    width: 180px;
+    height: 58px;
+    border: 2px solid;
+    border-color: rgb(85, 172, 238);
+    border-radius: 6px;
+    margin-left: 700px;
+    top: 43px;
+}
+
+.bird {
+    top: 12px;
+    left: 18px;
+}
+
+.follow {
+    color: rgb(85, 172, 238);
+    font-size: 26px;
+    font-weight: bolder;
+    margin-left: 540px;
+    font-family: sans-serif;
+}
+
+.fotoperfil,
+.logoaccount,
+.username,
+.check,
+.useraccount,
+.tweet,
+.date,
+.reply,
+.retweet,
+.favorite {
+    position: relative;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.fotoperfil {
+    top: 40px;
+    left: 35px;
+}
+
+.logoaccount {
+    left: 47px;
+    top: 5px;
+}
+
+.username {
+    left: 47px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.check {
+    left: 47px;
+    top: 5px;
+}
+
+.useraccount {
+    left: 128px;
+    top: 5px;
+    font-size: 23px;
+    font-family: "Arial";
+    color: rgb(104, 109, 129);
+}
+
+.tweet {
+    left: 47px;
+    font-size: 30px;
+    font-family: "Arial";
+    top: 30px;
+}
+
+.date {
+    left: 40px;
+    font-size: 23px;
+    font-family: "Arial";
+    color: rgb(101, 116, 127);
+    top: 48px;
+}
+
+.reply {
+    position: relative;
+    left: 40px;
+    color: rgb(104, 109, 129);
+    top: 80px;
+}
+
+.retweet {
+    left: 80px;
+    color: rgb(104, 109, 129);
+    top: 80px;
+    font-size: 25px;
+}
+
+.favorite {
+    left: 180px;
+    color: rgb(104, 109, 129);
+    top: 80px;
+    font-size: 25px;
+}
